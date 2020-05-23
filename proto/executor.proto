@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+service Executor {
+    rpc Do (Request) returns (Response) {
+    };
+}
+
+message Request {
+    string name = 1;
+    map<string, string> args = 2;
+}
+
+message Response {
+    string message = 1;
+}
