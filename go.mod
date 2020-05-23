@@ -1,4 +1,4 @@
-module github.com/speza/worker
+module github.com/speza/runner
 
 go 1.14
 
