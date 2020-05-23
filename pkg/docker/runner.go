@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/client"
 	log "github.com/sirupsen/logrus"
-	"github.com/speza/worker/pkg"
+	"github.com/speza/runner/pkg"
 	"io"
 	"os"
 )

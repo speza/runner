@@ -7,9 +7,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	log "github.com/sirupsen/logrus"
-	"github.com/speza/worker/pkg"
-	"github.com/speza/worker/pkg/docker"
-	"github.com/speza/worker/proto"
+	"github.com/speza/runner/pkg"
+	"github.com/speza/runner/pkg/docker"
+	"github.com/speza/runner/proto"
 	"google.golang.org/grpc"
 	"net/http"
 )
